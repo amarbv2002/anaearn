@@ -1,0 +1,77 @@
+.op2 a::before {
+  background-color: white !important;
+  color: #111;
+}
+
+.op2 a {
+  color: #01bd8d;
+}
+
+.ds-main-banner-area {
+  background: linear-gradient(
+      to right,
+      rgba(15, 15, 15, 0.9),
+      rgba(15, 15, 15, 1)
+    ),
+    url("../img/slider-bg.jpg") fixed center no-repeat;
+  background-size: cover;
+  text-transform: capitalize;
+  padding-top: 170px;
+  padding-bottom: 120px;
+  border-bottom: 3px solid #01bd8d;
+}
+
+.float-ani {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.ds-services-card .content .icon img {
+  height: 80px;
+}
+
+.ds-services-card {
+  border: 2px solid #01bd8d;
+}
+
+.ds-funfacts-card .content .icon img {
+  height: 40px;
+}
+
+.each-table-1 {
+  background-color: #01bd8e84;
+  border-radius: 20px;
+}
+
+.each-table-1 td,
+.each-table-1 th {
+  color: white;
+}
+
+.each-table-2 {
+  background-color: #01bd8ead;
+  border-radius: 20px;
+}
+
+.each-table-2 td,
+.each-table-2 th {
+  color: white;
+}
+
+.ds-feedback-area {
+  background: #111;
+  padding-bottom: 80px;
+}
