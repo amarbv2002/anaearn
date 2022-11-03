@@ -80,3 +80,7 @@
   background-color: #111;
   border-bottom: 4px solid #01bd8d;
 }
+
+::placeholder {
+  opacity: 0.6 !important;
+}
