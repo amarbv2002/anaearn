@@ -75,3 +75,8 @@
   background: #111;
   padding-bottom: 80px;
 }
+
+.page-title-area {
+  background-color: #111;
+  border-bottom: 4px solid #01bd8d;
+}
